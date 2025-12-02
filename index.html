@@ -12,7 +12,7 @@
 </head>
 <body>
     <a href="index1.html" target="_blank">Go to Index1</a> <br>
-    <a href="#a">pixel</a>
+    <a href="#index1_html">Index1</a>
     <!--Block level tag-->
     <h1>Hello, World!</h1>
     <p>This is a sample HTML document.</p>
@@ -27,11 +27,52 @@
         <p>They help with SEO and accessibility.</p>
     </section>
     <!--Non semantic tag-->
-    <div>This is a non-semantic tag used for grouping content.</div>
+    <div>This is a non-semantic tag used for grouping content.</div><br>
+    <!------------------------------------------------------------------------------------------------------------------------->
+    <!--table tag-->
+    <p>Sample Table 1:</p>
+    <table border="2">
+        <tr>
+            <th> Name </th>
+            <th> Age </th>
+            <th> Email </th>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>21</td>
+            <td>rahul@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>22</td>
+            <td>arun@gmail.com</td>
+        </tr>
+    </table>
 
+    <p>Sample Table 2:</p>
+    <table border="2">
+        <tr>
+            <th> Name </th>
+            <td> Rahul </td>
+            <td> Arun </td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>21</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>rahul@gmail.com</td>
+            <td>arun@gmail.com</td>
+        </tr>
+    </table>
+
+<br><br>
     <!--fieldset tag-->
     <fieldset>
     <!--Form tag-->
+    <legend>Contact</legend>
     <form action="/submit" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
@@ -59,10 +100,10 @@
     </ol>
 
     <dl>px</dl>
-    <dd>pixel</dd>
-    <img src="images/Cyberpunk2077_SteamAvatars_Male-V.png" alt="Cyberpunk 2077" width="500" height="500">
+    <dd id="pixel">pixel</dd>
+    <img src="images/Cyberpunk2077_SteamAvatars_Male-V.png" alt="Cyberpunk 2077" width="500" height="500"> <br><br>
 
-    <iframe src="index1.html" frameborder="5"></iframe>
+    <iframe src="index1.html" frameborder="5" id="index1_html"></iframe>
     
 
 </body>
